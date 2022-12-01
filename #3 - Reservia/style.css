@@ -87,7 +87,6 @@ nav a.signup {
 .search-form {
     display: inline-flex;
     max-width: 100%;
-    overflow: auto;
 }
 
 span.searchFormIcon {
@@ -126,4 +125,11 @@ input::placeholder {
     border: none;
     font-size: 1rem;
     cursor: pointer;
+    opacity: 0.9;
+    transition: transform 200ms;
+}
+
+.search-form button:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
